@@ -1,0 +1,74 @@
+@-webkit-keyframes slidein-bottom{from{bottom:-100%}
+to{bottom:.5rem}
+}
+@keyframes slidein-bottom{from{bottom:-100%}
+to{bottom:.5rem}
+}
+@-webkit-keyframes opacity-0-1{from{opacity:0}
+to{opacity:1}
+}
+@keyframes opacity-0-1{from{opacity:0}
+to{opacity:1}
+}
+.fxg-bs-modal{z-index:999999}
+[dir] .fxg-bs-modal{margin-top:10%}
+.fxg-bs--modaltext{color:#333;opacity:100%;font-size:2rem;font-weight:300;line-height:1.3}
+[dir] .fxg-bs--modaltext{margin-top:.3125rem;text-align:center}
+.fxg-bs--maintext{color:#333;opacity:100%;font-size:1rem;font-weight:300;line-height:1.5}
+[dir] .fxg-bs--maintext{text-align:center}
+[dir=ltr] .fxg-bs--maintext{margin-left:6.25rem;margin-right:6.25rem}
+[dir=rtl] .fxg-bs--maintext{margin-right:6.25rem;margin-left:6.25rem}
+.fxg-bs--maintext a{color:#333;text-decoration:underline}
+.fxg-bs--gridtext{color:#333 100%;opacity:100%;font-size:.75rem;font-weight:700;line-height:1.3}
+.fxg-bs-list{color:#333 100%;opacity:100;font-size:.875rem;font-weight:400;line-height:1.5;list-style:none}
+.fxg-bs--form-check-label{color:#333;opacity:100%;font-size:.875rem;font-weight:400;line-height:1.5}
+[dir=ltr] .fxg-bs--form-check-label{margin-left:.3125rem}
+[dir=rtl] .fxg-bs--form-check-label{margin-right:.3125rem}
+[dir=ltr] .checkbox{margin-left:2.1875rem}
+[dir=rtl] .checkbox{margin-right:2.1875rem}
+.fxg-bs--modal-content{overflow:hidden;width:60%;position:fixed}
+[dir] .fxg-bs--modal-content{border-radius:0 !important;margin-top:5rem}
+[dir] .fxg-bs--modal-body{padding:0}
+input [type=checkbox]{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+[dir] input [type=checkbox]{border-radius:0}
+.modal-content .fxg-link--rounded_button{font-size:.875rem;font-weight:700;line-height:1.5}
+[dir] .modal-content .fxg-link--rounded_button{background:#fff}
+html[dir=ltr] .fxg-bs--close{border:0;float:right;background:0;width:45px;height:45px;cursor:pointer !important;font-size:30px;font-weight:none;opacity:none;color:#646464}
+html[dir=rtl] .fxg-bs--close{border:0;float:left;background:0;width:45px;height:45px;cursor:pointer !important;font-size:30px;font-weight:none;opacity:none;color:#646464}
+@media only screen and (max-width:600px){.fxg-bs--maintext{color:#333;opacity:100%;font-size:1rem;font-weight:300;line-height:1.5}
+[dir] .fxg-bs--maintext{text-align:center}
+[dir=ltr] .fxg-bs--maintext{margin-left:.3125rem;margin-right:.3125rem}
+[dir=rtl] .fxg-bs--maintext{margin-right:.3125rem;margin-left:.3125rem}
+.fxg-bs--modaltext{color:#333;opacity:100%;font-size:2rem;font-weight:300;line-height:1.3}
+[dir] .fxg-bs--modaltext{margin-top:0rem;text-align:center}
+.fxg-bs--form-check-label{color:#333;opacity:100%;font-size:.875rem;line-height:1.5}
+[dir] .fxg-bs--form-check-label{margin-top:1.25rem}
+[dir=ltr] .fxg-bs--form-check-label{margin-left:0rem}
+[dir=rtl] .fxg-bs--form-check-label{margin-right:0rem}
+.fxg-bs--gridtext{color:#333 100%;opacity:100%;font-size:.75rem;font-weight:700;line-height:1.3}
+[dir] .fxg-bs--gridtext{text-align:center;margin-bottom:.9375rem;margin-top:1.5625rem}
+.fxg-bs-list{color:#333 100%;opacity:100;font-size:.875rem;font-weight:400;line-height:1.5;list-style:none}
+[dir] .fxg-bs-list{text-align:center}
+[dir] .fxg-bs--modal-content .row{margin-top:-0.9375rem}
+html[dir=ltr] .fxg-bs--modal-body ul{padding-left:0}
+html[dir=rtl] .fxg-bs--modal-body ul{padding-right:0}
+.fxg-bs--modal-content{width:80%;position:fixed;overflow:auto;height:325px}
+[dir] .fxg-bs--modal-content{border-radius:0 !important;margin-top:16.8125rem}
+[dir] .fxg-bs--modal-body{padding:0}
+[dir] .form-check{text-align:center}
+[dir] .modal-header{padding-bottom:0}
+}
+@media screen and (max-width:1000px) and (min-width:600px){.fxg-bs--form-check-label{color:#333;opacity:100%;font-size:.875rem;font-weight:400;line-height:1.5}
+[dir] .fxg-bs--form-check-label{margin-top:1.25rem}
+[dir=ltr] .fxg-bs--form-check-label{margin-left:.0625rem}
+[dir=rtl] .fxg-bs--form-check-label{margin-right:.0625rem}
+.fxg-bs--modal-content{width:60%;position:fixed}
+[dir] .fxg-bs--modal-content{border-radius:0 !important;margin-top:14.3125rem}
+[dir] .fxg-bs--modal-body{padding:0}
+.fxg-bs--gridtext{color:#333 100%;opacity:100%;font-size:.75rem;font-weight:700;line-height:1.3}
+[dir] .fxg-bs--gridtext{text-align:center}
+.fxg-bs-list{color:#333 100%;opacity:100;font-size:.875rem;font-weight:400;line-height:1.5;list-style:none}
+[dir] .fxg-bs-list{text-align:center}
+html[dir=ltr] .fxg-bs--modal-body ul{padding-left:0}
+html[dir=rtl] .fxg-bs--modal-body ul{padding-right:0}
+}
